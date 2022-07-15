@@ -1,12 +1,12 @@
 {
-    "name": "spatie/laravel-onboard",
+    "name": "leanmachine/laravel-onboard",
     "description": "A Laravel package to help track user onboarding steps",
     "keywords": [
         "spatie",
         "laravel",
         "laravel-onboard"
     ],
-    "homepage": "https://github.com/spatie/laravel-onboard",
+    "homepage": "https://github.com/leanrank/laravel-onboard",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,6 @@
     ],
     "require": {
         "php": "^8.0|^8.1",
-        "illuminate/contracts": "^9.0.*",
         "spatie/laravel-package-tools": "^1.9.2",
         "spatie/once": "^3.1"
     },
