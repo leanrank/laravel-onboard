@@ -97,6 +97,11 @@ class OnboardingStep
         return $this;
     }
 
+    public function getAttributes(): array
+    {
+        return $this->attributes;
+    }
+
     public function __get(string $key): mixed
     {
         return $this->attribute($key);
